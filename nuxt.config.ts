@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       API_URL: process.env.NUXT_API_URL,
+      cognitoRegion: process.env.NUXT_COGNITO_REGION,
+      cognitoClientId: process.env.NUXT_COGNITO_CLIENT_ID,
+      cognitoUserPoolId: process.env.NUXT_COGNITO_USER_POOL_ID,
     },
   },
 });
